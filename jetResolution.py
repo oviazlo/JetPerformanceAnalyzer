@@ -11,8 +11,8 @@ from helperFunctions import checkForRequiredFields, getTree, getLorentzVectors
 from helperFunctions import checkJetPairMatching
 from histPool import histPool, VectorTuple
 
-ROOT.gROOT.LoadMacro("CLIC_style/CLICdpStyle/rootstyle/CLICdpStyle.C+")
-ROOT.CLICdpStyle()
+#  ROOT.gROOT.LoadMacro("CLIC_style/CLICdpStyle/rootstyle/CLICdpStyle.C+")
+#  ROOT.CLICdpStyle()
 
 
 def main(inFileName):
